@@ -38,7 +38,9 @@ See [the assets](./assets/) for other examples.
 
 ## Opportunities
 
- * somehow generate valid rust code to deal with type unions like `Number | String`. 
- * be smarter about json schemas where the field keys are dynamic or in other words the field keys are based on the data that is represented.
- * allow outputting a JSON schema.
+ * generate valid rust code for type unions `Number | String`. 
+ * allow annotating or automatically recognize objects being used as dynamic maps meaning the field names depend on the input data.
+ * allow annotating or automatically recognize enumeration variants and their discriminants.
+ * allow outputting a JSON schema instead of rust code.
+ * allow controlling whether a `#[serde(rename = "...")]` attribute should be emitted when the field name and rust identifier are exactly the same.
  * build an interactive UI around this idea where the user is asked to review deeper and deeper objects, nullability can be toggled, ...
