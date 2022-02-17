@@ -1,0 +1,11 @@
+{
+    "data": [
+        {
+            "name": "Strawberry",
+            "price": 100
+        },
+        {
+            "name": "Banana"
+        }
+    ]
+}
